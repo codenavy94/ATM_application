@@ -30,7 +30,8 @@ C:\Desktop\YOUR_DIR_NAME\ATM_application>
 C:\Desktop\YOUR_DIR_NAME\ATM_application> python main.py
 ```
 
-3. Enter valid card number for the follwing direction:
+3. Enter valid card number for the follwing direction:  
+(The program presupposes that the input is always a valid card number.)
 
 ```
 Enter your card number
