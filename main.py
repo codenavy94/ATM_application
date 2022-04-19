@@ -26,11 +26,7 @@ while wrong_cnt < 5:
         print('Wrong PIN number. Please try again.', end='\n\n')
         wrong_cnt += 1
 else:
-    print(\
-    '''
-    You have entered wrong PIN number for 5 times.
-    Please visit Bear Bank to regain access to your accounts.
-    End Program.''')
+    print_msg_freeze_acc()
     exit()
 
 

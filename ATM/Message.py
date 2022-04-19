@@ -9,8 +9,10 @@ def print_msg_enter_pin():
     print(msg, end = ' ')
 
 def print_msg_freeze_acc():
-    msg = 'You have entered wrong PIN number for 5 times.\n\
-        Please visit Bear Bank to regain access to your accounts.'
+    msg = inspect.cleandoc('''
+    You have entered wrong PIN number for 5 times.
+    Please visit Bear Bank to regain access to your accounts.'
+    End Program.''')
     print(msg)
     
 def print_msg_choose_acc():
