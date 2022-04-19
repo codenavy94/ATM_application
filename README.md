@@ -36,7 +36,7 @@ C:\Desktop\YOUR_DIR_NAME\ATM_application> python main.py
 ```
 Enter your card number
 (ex) 0000-1234-5678
->>
+>> 0000-1234-5678
 ```
 
 4. Enter valid PIN number for the following direction:
@@ -44,7 +44,7 @@ Enter your card number
 ```
 Enter your PIN number
 (ex) 0000
->>
+>> 0000
 ```
 
 5. If the PIN is correct, the application will show you a list of accounts you have as follows.  
@@ -55,7 +55,7 @@ Your Accounts:
 [1] 135-000-1357
 [2] 246-789-1135
 Choose account number. (ex) 1
->> 
+>> 1
 ```
 
 6. If choose one of the accounts, you can choose one of the actions you would like to make:
@@ -69,8 +69,25 @@ Choose Account Action:
 
 [9] End Program
 ======================
->> 
+>> 2
 ```
 
-7. The program will continue to run until the user enters 9 for ending the program.
+7. For [2] Deposit Money and [3] Withdraw Money options, the program will ask the user to enter deposit/withdrawl amount as follows.  
+Moreover, the program will return an error message if the withdrawl amount entered by the user is bigger than the account balance.
+
+```
+Enter deposit amount:
+>> 1000
+```
+```
+Enter withdrawl amount:
+>> 500
+```
+```
+=== Processing Withdrawl... ===
+There is not enough money in the account.
+Please try again.
+```
+
+8. The program will continue to run until the user enters 9 for ending the program.
 
