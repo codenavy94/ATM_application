@@ -72,7 +72,7 @@ Choose Account Action:
 >> 2
 ```
 
-7. For [2] Deposit Money and [3] Withdraw Money options, the program will ask the user to enter deposit/withdrawl amount as follows.  
+7. For ```[2] Deposit Money``` and ```[3] Withdraw Money``` options, the program will ask the user to enter deposit/withdrawl amount as follows.  
 Moreover, the program will return an error message if the withdrawl amount entered by the user is bigger than the account balance.
 
 ```
@@ -89,5 +89,5 @@ There is not enough money in the account.
 Please try again.
 ```
 
-8. The program will continue to run until the user enters 9 for ending the program.
+8. The program will continue to run until the user enters ```9``` for ending the program.
 
