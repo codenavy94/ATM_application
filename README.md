@@ -89,5 +89,5 @@ There is not enough money in the account.
 Please try again.
 ```
 
-8. The program will continue to run until the user enters ```9``` for ending the program.
+8. The program will continue to run until the user enters ```9``` to end the program.
 
